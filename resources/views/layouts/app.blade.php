@@ -38,19 +38,26 @@
                     <div class="navbar-brand-box">
                         <a href="index.html" class="logo logo-dark">
                             <span class="logo-sm">
-                                <img src="{{ url('assets') }}/images/logo.svg" alt="" height="22">
+                                {{-- <img src="{{ url('assets') }}/images/logo.svg" alt="" height="22"> --}}
+                                PV
+
                             </span>
                             <span class="logo-lg">
-                                <img src="{{ url('assets') }}/images/logo-dark.png" alt="" height="17">
+                                {{-- <img src="{{ url('assets') }}/images/logo-dark.png" alt="" height="17"> --}}
+                                PV
                             </span>
                         </a>
 
                         <a href="index.html" class="logo logo-light">
                             <span class="logo-sm">
-                                <img src="{{ url('assets') }}/images/logo-light.svg" alt="" height="32">
+                                {{-- <img src="{{ url('assets') }}/images/logo-light.svg" alt="" height="32"> --}}
+                                PV
+
                             </span>
                             <span class="logo-lg">
-                                <img src="{{ url('assets') }}/images/logo-light.png" alt="" height="29">
+                                {{-- <img src="{{ url('assets') }}/images/logo-light.png" alt="" height="29"> --}}
+                                PV
+
                             </span>
                         </a>
                     </div>
@@ -68,8 +75,9 @@
                     <div class="dropdown d-inline-block">
                         <button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown"
                             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <img class="rounded-circle header-profile-user"
-                                src="{{ url('assets') }}/images/users/avatar-1.jpg" alt="Header Avatar">
+                            {{-- <img class="rounded-circle header-profile-user"
+                                src="{{ url('assets') }}/images/users/avatar-1.jpg" alt="Header Avatar"> --}}
+                                PV
                             <span class="d-none d-xl-inline-block ms-1"
                                 key="t-henry">{{ auth()->user()->username }}</span>
                             <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i>
@@ -146,8 +154,15 @@
                         </li>
                         <li>
                             <a href="{{ url('/') }}" class="waves-effect">
-                                <i class='bx bx-notepad' ></i>
+                                <i class='bx bxs-copy-alt' ></i>
                                 <span key="t-dashboards">Transaksi</span>
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="{{ url('/') }}" class="waves-effect">
+                                <i class='bx bx-credit-card' ></i>
+                                <span key="t-dashboards">Alokasi Dana</span>
                             </a>
 
                         </li>
