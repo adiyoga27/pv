@@ -9,14 +9,14 @@
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="Themesbrand" name="author" />
     <!-- App favicon -->
-    <link rel="shortcut icon" href="{{url('assets/admin')}}/images/favicon.ico">
+    <link rel="shortcut icon" href="{{url('assets')}}/images/favicon.ico">
 
     <!-- Bootstrap Css -->
-    <link href="{{url('assets/admin')}}/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <link href="{{url('assets')}}/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
     <!-- Icons Css -->
-    <link href="{{url('assets/admin')}}/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="{{url('assets')}}/css/icons.min.css" rel="stylesheet" type="text/css" />
     <!-- App Css-->
-    <link href="{{url('assets/admin')}}/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+    <link href="{{url('assets')}}/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
 
 </head>
 
@@ -36,7 +36,7 @@
                                 </div>
                             </div>
                             <div class="col-5 align-self-end">
-                                <img src="{{url('assets/admin')}}/images/profile-img.png" alt="" class="img-fluid">
+                                <img src="{{url('assets')}}/images/profile-img.png" alt="" class="img-fluid">
                             </div>
                         </div>
                     </div>
@@ -45,7 +45,7 @@
                             <a href="index.html" class="auth-logo-light">
                                 <div class="avatar-md profile-user-wid mb-4">
                                     <span class="avatar-title rounded-circle bg-light">
-                                        <img src="{{url('assets/admin')}}/images/logo-light.svg" alt="" class="rounded-circle" height="34">
+                                        <img src="{{url('assets')}}/images/logo-light.svg" alt="" class="rounded-circle" height="34">
                                     </span>
                                 </div>
                             </a>
@@ -53,7 +53,7 @@
                             <a href="index.html" class="auth-logo-dark">
                                 <div class="avatar-md profile-user-wid mb-4">
                                     <span class="avatar-title rounded-circle bg-light">
-                                        <img src="{{url('assets/admin')}}/images/logo.svg" alt="" class="rounded-circle" height="34">
+                                        <img src="{{url('assets')}}/images/logo.svg" alt="" class="rounded-circle" height="34">
                                     </span>
                                 </div>
                             </a>
@@ -112,14 +112,14 @@
 </div>
 <!-- end account-pages -->
 <!-- JAVASCRIPT -->
-<script src="{{url('assets/admin')}}/libs/jquery/jquery.min.js"></script>
-<script src="{{url('assets/admin')}}/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="{{url('assets/admin')}}/libs/metismenu/metisMenu.min.js"></script>
-<script src="{{url('assets/admin')}}/libs/simplebar/simplebar.min.js"></script>
-<script src="{{url('assets/admin')}}/libs/node-waves/waves.min.js"></script>
+<script src="{{url('assets')}}/libs/jquery/jquery.min.js"></script>
+<script src="{{url('assets')}}/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="{{url('assets')}}/libs/metismenu/metisMenu.min.js"></script>
+<script src="{{url('assets')}}/libs/simplebar/simplebar.min.js"></script>
+<script src="{{url('assets')}}/libs/node-waves/waves.min.js"></script>
 
 <!-- App js -->
-<script src="{{url('assets/admin')}}/js/app.js"></script>
+<script src="{{url('assets')}}/js/app.js"></script>
 </body>
 
 </html>
